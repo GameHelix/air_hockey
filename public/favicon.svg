@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#0a0a14"/>
+  <!-- Table border -->
+  <rect x="6" y="6" width="52" height="52" rx="6" fill="#0d1117" stroke="#00f5ff" stroke-width="1.5"/>
+  <!-- Center line -->
+  <line x1="6" y1="32" x2="58" y2="32" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- Center circle -->
+  <circle cx="32" cy="32" r="8" fill="none" stroke="#7c3aed" stroke-width="1"/>
+  <!-- AI goal (top, magenta) -->
+  <rect x="20" y="6" width="24" height="5" fill="#ff00ff33" stroke="#ff00ff" stroke-width="1"/>
+  <!-- Player goal (bottom, cyan) -->
+  <rect x="20" y="53" width="24" height="5" fill="#00f5ff33" stroke="#00f5ff" stroke-width="1"/>
+  <!-- AI paddle (magenta) -->
+  <circle cx="32" cy="20" r="6" fill="#ff00ff88" stroke="#ff00ff" stroke-width="1.5"/>
+  <!-- Player paddle (cyan) -->
+  <circle cx="32" cy="44" r="6" fill="#00f5ff88" stroke="#00f5ff" stroke-width="1.5"/>
+  <!-- Puck (white/purple) -->
+  <circle cx="32" cy="32" r="4" fill="#e0e0ff" stroke="#a78bfa" stroke-width="1"/>
+</svg>
